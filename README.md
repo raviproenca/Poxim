@@ -49,7 +49,9 @@ Note: GCC is required to run, either in a Linux environment (native or WSL) or u
 
 (WARNING: The output of poxim is about 130 thousand lines long. If your computer is not powerful, it might freeze, but usually, it just takes a while and outputs correctly in the end.)
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Arquitetura Poxim - Simulador de Processador
 
 Este repositório contém uma implementação de um processador simples, didático e hipotético baseado na arquitetura **Poxim**. A Poxim segue a filosofia do **Complexity-Reduced Instruction Set Processor (CRISP)**, sendo uma arquitetura projetada para fins educacionais, com foco em operações de baixo nível, manipulação de registradores, memória e gerenciamento de pilha.
 

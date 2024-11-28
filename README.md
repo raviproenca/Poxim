@@ -97,7 +97,7 @@ Além disso, a arquitetura possui as seguintes funcionalidades:
 
 ## Como Executar
 Obs: é necessário o GCC para rodar, seja em ambiente linux (nativo ou WSL) ou utilizando o MinGW caso esteja no windows. 
--> gcc -Wall -O3 raviproenca_poxim.c -o raviproenca_poxim
--> ./raviproenca_poxim poxim.input.txt poxim.output.txt
+-> `gcc -Wall -O3 raviproenca_poxim.c -o raviproenca_poxim`
+-> `./raviproenca_poxim poxim.input.txt poxim.output.txt`
 
 (AVISO: A saída do poxim tem cerca de 130 mil linhas, se o computador não for bom pode travar, mas geralmente ele apenas demora um pouco e sai corretamente no final.)

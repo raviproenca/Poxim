@@ -1,6 +1,7 @@
 # Poxim Architecture - Processor Simulator
+- **Obs: informações disponíveis em PT-BR no final desse README.**
 
-This repository contains an implementation of a simple, educational, and hypothetical processor based on the **Poxim** architecture. Poxim follows the **Complexity-Reduced Instruction Set Processor (CRISP)** philosophy, being an architecture designed for educational purposes, focusing on low-level operations, register manipulation, memory handling, and stack management.
+This repository contains an implementation of a simple, educational, and hypothetical processor based on the **Poxim** architecture. Poxim follows the **Complexity-Reduced Instruction Set Processor (CRISP)** philosophy, being an architecture designed for educational purposes, focusing on low-level operations, register manipulation, memory handling, and stack management. Poxim was developed by **Professor Bruno Otavio Piedade Prado (http://lattes.cnpq.br/1063672636684815)** for the Computer Architecture course at the Federal University of Sergipe (UFS). **The project available in the repository is my own work** and was carried out based on the documentation provided by the professor, serving as the primary evaluation criterion to pass the course.
 
 ## Architecture Structure
 
@@ -18,6 +19,7 @@ Additionally, the architecture includes the following features:
 - **Data Read and Write in Memory (8, 16, 32 bits)**
 - **Memory Cache**
 - **Pipeline (NOT IMPLEMENTED)**
+- **Priority queue (NOT IMPLEMENTED)**
 
 ## Implemented Features
 
@@ -53,7 +55,7 @@ Note: GCC is required to run, either in a Linux environment (native or WSL) or u
 
 # Arquitetura Poxim - Simulador de Processador
 
-Este repositório contém uma implementação de um processador simples, didático e hipotético baseado na arquitetura **Poxim**. A Poxim segue a filosofia do **Complexity-Reduced Instruction Set Processor (CRISP)**, sendo uma arquitetura projetada para fins educacionais, com foco em operações de baixo nível, manipulação de registradores, memória e gerenciamento de pilha.
+Este repositório contém uma implementação de um processador simples, didático e hipotético baseado na arquitetura **Poxim**. A Poxim segue a filosofia do **Complexity-Reduced Instruction Set Processor (CRISP)**, sendo uma arquitetura projetada para fins educacionais, com foco em operações de baixo nível, manipulação de registradores, memória e gerenciamento de pilha. O Poxim foi desenvolvido pelo professor **Bruno Otavio Piedade Prado (http://lattes.cnpq.br/1063672636684815)**, na matéria de Arquitetura de Computadores da Universidade Federal de Sergipe - UFS. **O projeto disponível no repertório é de minha autoria** e foi realizado com base na documentação disponibilizada pelo professor, sendo o principal critério de avaliação para passar na disciplina.
 
 ## Estrutura da Arquitetura
 
@@ -71,6 +73,7 @@ Além disso, a arquitetura possui as seguintes funcionalidades:
 - **Leitura e Escrita de Dados em Memória (8, 16, 32 bits)**
 - **Memória Cache**
 - **Pipeline (NÃO IMPLEMENTADA)**
+- **Fila de prioridades (NÃO IMPLEMENTADA)**
 
 ## Funcionalidades Implementadas
 
